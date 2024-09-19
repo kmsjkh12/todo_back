@@ -1,0 +1,81 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    width: 250px;
+    background-color: #343a40;
+    padding: 20px;
+    color: black;
+    border-right: 1px solid #ddd;
+}
+
+aside h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    padding: 15px;
+    margin: 5px 0;
+    background-color: #495057;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background-color: #6c757d;
+}
+
+.menu-item.selected {
+    background-color: #007bff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #343a40;
+}
+
+/* Separate personal and team todos */
+.personal-todo {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.team-todo {
+    font-size: 1.2rem;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
